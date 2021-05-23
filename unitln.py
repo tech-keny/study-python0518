@@ -7,5 +7,6 @@ x = 0
 for i in range(input_line+1):
     x += i
     
-print(x)javascript:void(0)
+print(x)
+
     
