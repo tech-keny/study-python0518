@@ -1,3 +1,5 @@
-a =(3,2)
+result = 0
+for i in range(10):
+	result += 1
 
-print(a[1])
+print(result)
