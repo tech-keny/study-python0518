@@ -21,7 +21,7 @@ for i in range(t):
     x = int(input())
     n = 0
     for j in range(1, x+1):
-        divisor()
+        divisor()   
     s = n - x
     result()
         
