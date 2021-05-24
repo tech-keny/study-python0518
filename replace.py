@@ -9,7 +9,7 @@ for i in range(len(word)):
 
 dl = {'A':'4','E':'3','G':'6','I':'1','O':'0','S':'5','Z':'2'}
 
-for j in range(len(word)):
+for j in range(len(word)):  
     if li[j] in dl:
             # li.replace(li[j],dl[li[j]])は指定できない（replaceメソッドがない）
             li[j] = dl[li[j]]
