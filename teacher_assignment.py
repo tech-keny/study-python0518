@@ -8,7 +8,7 @@ if num[0] == 'x':
         
 elif num[2] == 'x':
     if num[1] =='+':
-        print(int(num[4]) + int(num[0]))
+        print(int(num[4]) - int(num[0]))
     else:
         print(int(num[0]) - int(num[4]))
         
