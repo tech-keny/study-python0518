@@ -1,17 +1,10 @@
-num = int(input())
+val = input().split()
 
-amount = 0
-# set_number = 1
+for i in range(2):
+    if len(val[i]) ==1:
+        val[i] = '0'+'0'+val[i]
+    if len(val[i]) ==2:
+        val[i] = '0' +val[i]
 
-li = []
-for i in range(num):
-    x = int(input())
-    li.append(x)
+if int(val[0][2]) + int(val[1][2]) >=10
     
-for j in range(num):
-    if j ==0:
-        amount += abs(li[j]-1)
-    else:
-        amount += abs(li[j-1] -li[j])
-
-print(amount)
